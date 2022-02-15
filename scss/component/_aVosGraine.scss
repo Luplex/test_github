@@ -1,0 +1,64 @@
+.containerAVosGraine {
+    max-width: 1080px;
+    margin: auto;
+    height: 850px;
+    position: relative;
+
+    div {
+        img:nth-child(3) {
+            position: absolute;
+            top: 295px;
+            right: -59px;
+        }
+
+        img:nth-child(2) {
+            position: absolute;
+            top: 564px;
+            right: 350px;
+            z-index: 5;
+        }
+
+        img:first-child {
+            position: absolute;
+            top: 365px;
+            left: 116px;
+        }
+    }
+
+}
+
+@media only screen and (max-width: 1195px) {
+    .gamification {
+        .containerAVosGraine {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: fit-content;
+
+            div {
+                display: flex;
+                margin-top: 50px;
+
+                img:nth-child(1) {
+                    display: none;
+                };
+
+                img:nth-child(2) {
+                    display: none;
+                }
+
+                ;
+
+                img:nth-child(3) {
+                    position: initial;
+                    max-width: 60%;
+                    margin: auto;
+                    margin-bottom: 50px;
+                }
+
+                ;
+            }
+        }
+
+    }
+}

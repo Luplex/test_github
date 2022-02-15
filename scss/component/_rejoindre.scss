@@ -1,0 +1,43 @@
+.rejoindre {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $vertFonce;
+
+    img:first-child {
+        height: 20%;
+        margin-right: 33px;
+    }
+
+    h2 {
+        margin-right: 91px;
+    }
+
+    .boutonBlanc {
+        padding: 12px 30px;
+        background-color: $blanc;
+        border-radius: 29px;
+
+    }
+}
+
+@media only screen and (max-width:1286px) {
+
+    .rejoindre {
+        padding: 10px;
+    }
+
+}
+
+@media only screen and (max-width:590px) {
+
+    .rejoindre {
+        flex-direction: column;
+        padding: 10px;
+
+        h2 {
+            margin: 15px;
+        }
+    }
+
+}

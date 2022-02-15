@@ -1,0 +1,105 @@
+%gamificationDetailStyle {
+    background-color: $veryLiteVert;
+    border-radius: 40px;
+    padding: 50px;
+    height: 390px;
+    position: relative;
+}
+
+%fixedAlignementElement {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+* {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url("../asset/body/grille.svg");
+    background-color: $fondCouleur;
+
+    header {
+        padding-top: 4vh;
+        padding-left: 5vw;
+
+        img {
+            height: 30px;
+        }
+    }
+
+    main {
+        overflow-x: clip;
+
+        .hero {
+            .container_AllHero {
+                display: flex;
+
+                .container_contentHero {
+                    display: flex;
+                    justify-content: center;
+                    width: 70vw;
+                }
+            }
+
+            p:last-child {
+                position: absolute;
+                left: 0;
+                right: 0;
+                bottom: 10px;
+                text-align: center;
+            }
+        }
+
+        // A optimiser extend + typo
+        .gamification {
+            background-color: $liteVert;
+            position: relative;
+            padding-top: 70vh;
+            margin-top: 13vh;
+
+            .GamificationDetailContent {
+                max-width: 1080px;
+                margin: 120px auto;
+            }
+        }
+    }
+
+    .pictoAnimation {
+        position: absolute;
+        animation: AnimationFlottement 6s ease-in-out 1s infinite;
+
+        @keyframes AnimationFlottement {
+            0% {
+                transform: translateY(0px);
+            }
+
+            50% {
+                transform: translateY(-15px);
+            }
+
+            100% {
+                transform: translateY(0px);
+            }
+        }
+    }
+
+    @media only screen and (max-width: 948px) {
+        .gamification {
+            .GamificationDetailContent {
+                max-width: 787px !important;
+
+            }
+        }
+    }
+
+    .button {
+        @extend %button;
+    }
+
+    .button::after {
+        @extend %buttonAfter;
+        margin-left: 8px;
+    }
+}

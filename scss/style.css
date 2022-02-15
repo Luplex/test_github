@@ -1,0 +1,1202 @@
+@charset "UTF-8";
+* {
+  margin: 0;
+  padding: 0; }
+
+li {
+  list-style: none; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+  a:visited {
+    color: inherit; }
+
+/*import typo*/
+@font-face {
+  font-family: 'ClashDisplay';
+  src: url("../asset/typo/ClashDisplay-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-display: swap;
+  font-style: normal; }
+@font-face {
+  font-family: 'ClashDisplay';
+  src: url("../asset/typo/ClashDisplay-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-display: swap;
+  font-style: normal; }
+@font-face {
+  font-family: 'ClashDisplay';
+  src: url("../asset/typo/ClashDisplay-Semibold.woff2") format("woff2");
+  font-weight: 600;
+  font-display: swap;
+  font-style: normal; }
+@font-face {
+  font-family: 'ClashDisplay';
+  src: url("../asset/typo/ClashDisplay-Bold.woff2") format("woff2");
+  font-weight: 700;
+  font-display: swap;
+  font-style: normal; }
+/* Couleur */
+/* Typo */
+/*Ombre*/
+/*Dimention*/
+h2 {
+  font-size: 80px;
+  line-height: 80px; }
+
+.contentIntro p, .contentIntro2 div p:first-child, .containerAVosGraine p {
+  font-size: 28px;
+  text-align: center;
+  font-weight: 600;
+  color: #30553D; }
+
+* {
+  font-family: 'ClashDisplay'; }
+
+h1 {
+  font-size: 80px;
+  line-height: 80px; }
+  h1 .rayure {
+    font-size: 80px;
+    line-height: 80px;
+    color: #000000;
+    font-weight: 700; }
+
+.beforeTitle {
+  font-size: 26px;
+  line-height: 0;
+  color: #FF925D !important;
+  font-weight: 600;
+  margin-bottom: 20px; }
+
+.contentIntro h2 {
+  text-align: center; }
+
+.contentIntro2 h2 {
+  text-align: center; }
+.contentIntro2 p {
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: 1px; }
+
+.GamificationDetailContent section h3 {
+  font-size: 40px;
+  font-weight: 700; }
+
+.notification p {
+  font-weight: 600; }
+
+.containerAVosGraine h2 {
+  text-align: center; }
+
+.contentTextCta h2, .contentTextCta p {
+  color: #ffff; }
+
+.rejoindre h2 {
+  font-size: 40px;
+  color: #ffff;
+  font-weight: 500; }
+.rejoindre .boutonBlanc a {
+  color: #000000;
+  text-align: center;
+  font-weight: 500; }
+
+.otherH2 {
+  font-size: 26px;
+  font-weight: 500; }
+
+.Function h3 {
+  text-align: center;
+  font-weight: 500;
+  color: #484848;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  font-size: 16px; }
+.Function p {
+  text-align: center; }
+.Function .contentTextFunction h3 {
+  font-size: 26px; }
+.Function .contentTextFunction p {
+  letter-spacing: 1.5px;
+  line-height: 26px; }
+
+.socialProof .nameProfile p:nth-child(1) {
+  font-size: 21px;
+  font-weight: 500; }
+.socialProof .nameProfile p:nth-child(2) {
+  color: #FF925D; }
+
+.valeur div:nth-child(2) p, .valeur div:nth-child(3) p, .valeur div:nth-child(4) p, .valeur div:nth-child(5) p {
+  color: #FF925D;
+  font-weight: 500;
+  font-size: 26px; }
+
+.bannerEndCta div:nth-child(2) h2, .bannerEndCta div:nth-child(2) p {
+  color: #ffff; }
+.bannerEndCta div:nth-child(2) h2 {
+  font-size: 52px;
+  line-height: 52px !important; }
+.bannerEndCta div:nth-child(2) p {
+  line-height: 23px; }
+
+footer section:nth-child(1) h2 {
+  font-size: 21px !important;
+  font-weight: 500;
+  line-height: 23px !important; }
+footer section:nth-child(2) nav a {
+  font-weight: 500; }
+
+@media only screen and (max-width: 445px) {
+  h2 {
+    font-size: 40px !important;
+    line-height: 40px !important; }
+
+  .contentIntro p, .contentIntro2 p {
+    font-size: 18px !important; }
+
+  p {
+    font-size: 14px; }
+
+  .otherH2 {
+    font-size: 26px !important; } }
+@media only screen and (max-width: 912px) {
+  .rejoindre h2 {
+    font-size: 30px;
+    line-height: 40px !important; } }
+.gamification .GamificationDetailContent .gagnerBadgeNiveau, .gamification .GamificationDetailContent .partage, .gamification .GamificationDetailContent .GagnerRemise {
+  background-color: #D8ECDA;
+  border-radius: 40px;
+  padding: 50px;
+  height: 390px;
+  position: relative; }
+
+.socialProof, .socialProof article, .press {
+  display: flex;
+  flex-direction: column;
+  align-items: center; }
+
+* {
+  scroll-behavior: smooth; }
+
+body {
+  background-image: url("../asset/body/grille.svg");
+  background-color: #F9FCF9; }
+  body header {
+    padding-top: 4vh;
+    padding-left: 5vw; }
+    body header img {
+      height: 30px; }
+  body main {
+    overflow-x: clip; }
+    body main .hero .container_AllHero {
+      display: flex; }
+      body main .hero .container_AllHero .container_contentHero {
+        display: flex;
+        justify-content: center;
+        width: 70vw; }
+    body main .hero p:last-child {
+      position: absolute;
+      left: 0;
+      right: 0;
+      bottom: 10px;
+      text-align: center; }
+    body main .gamification {
+      background-color: #BEDFC1;
+      position: relative;
+      padding-top: 70vh;
+      margin-top: 13vh; }
+      body main .gamification .GamificationDetailContent {
+        max-width: 1080px;
+        margin: 120px auto; }
+  body .pictoAnimation {
+    position: absolute;
+    animation: AnimationFlottement 6s ease-in-out 1s infinite; }
+@keyframes AnimationFlottement {
+  0% {
+    transform: translateY(0px); }
+  50% {
+    transform: translateY(-15px); }
+  100% {
+    transform: translateY(0px); } }
+  @media only screen and (max-width: 948px) {
+    body .gamification .GamificationDetailContent {
+      max-width: 787px !important; } }
+  body .button::after {
+    margin-left: 8px; }
+
+body .button {
+  padding: 12px 30px;
+  border-radius: 29px;
+  color: white;
+  font-weight: 500;
+  text-transform: uppercase; }
+
+body .button::after {
+  content: url("../asset/hero/arrows_white.svg"); }
+
+.hero .lianne {
+  width: auto;
+  height: 100vh;
+  margin-top: 20px; }
+.hero .container_contentHero .content_title {
+  display: flex;
+  flex-direction: column;
+  width: 754px;
+  position: relative; }
+  .hero .container_contentHero .content_title h1 {
+    margin-top: 91px;
+    padding-bottom: 111px;
+    margin-right: 50px; }
+    .hero .container_contentHero .content_title h1 .rayure {
+      position: relative; }
+    .hero .container_contentHero .content_title h1 .rayure::before {
+      content: url("../asset/hero/rature.svg");
+      position: absolute;
+      z-index: 2;
+      top: 20px; }
+    .hero .container_contentHero .content_title h1 .rayure::after {
+      content: url("../asset/hero/fun.svg");
+      position: absolute;
+      top: 99px;
+      left: 69px;
+      z-index: 3; }
+
+@media only screen and (max-width: 1400px) {
+  .container_AllHero {
+    margin: auto;
+    justify-content: center;
+    width: 90%; }
+    .container_AllHero .lianne {
+      display: none; }
+    .container_AllHero .container_contentHero {
+      width: 100% !important; } }
+@media only screen and (max-width: 1084px) {
+  .hero .container_AllHero .container_contentHero {
+    flex-direction: column; }
+    .hero .container_AllHero .container_contentHero .content_title {
+      width: 100%; }
+      .hero .container_AllHero .container_contentHero .content_title h1 {
+        text-align: center;
+        margin-right: 0px; }
+        .hero .container_AllHero .container_contentHero .content_title h1 .rayure::after {
+          left: 50%; }
+      .hero .container_AllHero .container_contentHero .content_title div {
+        display: flex;
+        justify-content: center; }
+    .hero .container_AllHero .container_contentHero .content_video {
+      display: flex;
+      justify-content: center; }
+      .hero .container_AllHero .container_contentHero .content_video .positionSmileyMDR {
+        position: absolute;
+        top: 145px;
+        left: 10%; }
+  .hero p {
+    display: none; } }
+@media only screen and (max-width: 603px) {
+  .container_AllHero .container_contentHero .content_title h1 {
+    text-align: left !important;
+    font-size: 50px;
+    line-height: 50px;
+    margin-top: 50px;
+    padding-bottom: 81px; }
+    .container_AllHero .container_contentHero .content_title h1 .rayure {
+      font-size: 50px;
+      line-height: 50px; }
+    .container_AllHero .container_contentHero .content_title h1 .rayure::after {
+      content: url("../asset/hero/fun_mobile.svg");
+      top: 64px; }
+    .container_AllHero .container_contentHero .content_title h1 .rayure::before {
+      content: url("../asset/hero/rayure_mobile.svg");
+      top: 11px; }
+  .container_AllHero .container_contentHero .content_title div {
+    flex-direction: column; }
+    .container_AllHero .container_contentHero .content_title div a {
+      width: 50%;
+      text-align: center; }
+  .container_AllHero .container_contentHero .positionSmileyMDR {
+    display: none; } }
+@media only screen and (max-width: 341px) {
+  .container_AllHero .container_contentHero .content_title h1 .rayure::after {
+    top: 116px;
+    left: -44px !important; }
+  .container_AllHero .container_contentHero .content_title h1 .rayure::before {
+    top: 64px;
+    left: -129px !important; } }
+.container_contentHero .content_video {
+  position: relative;
+  width: 50%;
+  height: 75vh; }
+  .container_contentHero .content_video .videoContainer {
+    margin-right: 26px;
+    position: relative; }
+    .container_contentHero .content_video .videoContainer div {
+      position: absolute;
+      top: 176px;
+      left: -45px;
+      border-radius: 24px;
+      overflow: hidden; }
+  .container_contentHero .content_video .positionSmileyRire {
+    top: -34px;
+    left: -129px; }
+  .container_contentHero .content_video .positionSmileyMDR {
+    top: 50px;
+    right: -52px; }
+  .container_contentHero .content_video .positionSmileyEtoile {
+    bottom: 0; }
+
+@media only screen and (max-width: 1074px) {
+  .content_video {
+    width: 100% !important;
+    align-items: center; }
+    .content_video .videoContainer div {
+      position: initial !important; }
+    .content_video .positionSmileyRire,
+    .content_video .positionSmileyMDR,
+    .content_video .positionSmileyEtoile {
+      display: none; } }
+@media only screen and (max-width: 576px) {
+  .content_video {
+    display: none !important; } }
+.scanne {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  position: relative;
+  height: 160vh; }
+  .scanne .imgBackgroundScan {
+    width: 60%;
+    margin: auto;
+    transition: all 1s; }
+  .scanne .imgMainScan {
+    position: absolute !important;
+    bottom: -50vh !important;
+    width: 100%;
+    z-index: 2; }
+  .scanne .ScaleImgBackgroundScan {
+    position: sticky !important;
+    top: 20vh !important;
+    margin: 0 auto;
+    z-index: -1; }
+  .scanne .pin-spacer {
+    transition: all 1s; }
+  .scanne .ScrolledImgMainScan {
+    position: sticky !important;
+    transition: all 1s;
+    top: 0 !important;
+    z-index: 5; }
+  .scanne .imgMainScan2 {
+    display: none; }
+  .scanne .png img {
+    width: 100%; }
+
+@media only screen and (max-width: 1400px) {
+  .scanne {
+    margin-top: 60vh; } }
+@media only screen and (max-width: 1150px) {
+  .scanne .imgMainScan {
+    bottom: -10vh !important; } }
+@media only screen and (max-width: 938px) {
+  .scanne .imgMainScan {
+    bottom: 10vh !important; } }
+.introH2, .gamification article .contentIntro, .gamification .contentIntro2 {
+  display: flex;
+  align-items: center;
+  flex-direction: column; }
+
+.gamification article .pictoEtoile3D {
+  top: 10%;
+  left: 15%; }
+.gamification article .pictoMessage3D {
+  top: 5%;
+  left: 35%; }
+.gamification article .pictoNotification3D {
+  top: 9%;
+  right: 12%; }
+.gamification article .contentIntro {
+  margin-top: 5%; }
+  .gamification article .contentIntro h2 {
+    margin-bottom: 50px; }
+  .gamification article .contentIntro img {
+    width: 8%; }
+.gamification article .contentPersonnageIntro {
+  width: 90vw;
+  margin: auto; }
+  .gamification article .contentPersonnageIntro img {
+    width: inherit; }
+.gamification .contentIntro2 {
+  margin-top: 10vh;
+  position: relative; }
+  .gamification .contentIntro2 div .CtaButton {
+    width: 70%;
+    display: flex;
+    justify-content: space-evenly;
+    margin: auto; }
+  .gamification .contentIntro2 p {
+    margin: 16px 0; }
+  .gamification .contentIntro2 .pictoPartage3d {
+    top: -5%;
+    left: 9%; }
+  .gamification .contentIntro2 .pictoGamificationTrophy {
+    top: 2%;
+    right: 9%; }
+  .gamification .contentIntro2 .pictoGamificationSmile {
+    right: 20%;
+    bottom: 0; }
+
+@media only screen and (max-width: 1056px) {
+  .gamification .contentIntro2 .pictoPartage3d,
+  .gamification .contentIntro2 .pictoGamificationTrophy,
+  .gamification .contentIntro2 .pictoGamificationSmile {
+    display: none; } }
+@media only screen and (max-width: 700px) {
+  .gamification {
+    padding-top: 12vh !important; }
+    .gamification article .pictoEtoile3D,
+    .gamification article .pictoMessage3D,
+    .gamification article .pictoNotification3D {
+      display: none !important; } }
+@media only screen and (max-width: 425px) {
+  .gamification p {
+    width: 80%;
+    margin: 10px auto !important; }
+  .gamification .contentIntro img {
+    width: 28% !important; } }
+.gamification .GamificationDetailContent .gagnerBadgeNiveau .imgBadgeXpMobile {
+  display: none; }
+.gamification .GamificationDetailContent .gagnerBadgeNiveau h3 {
+  margin-top: 70px;
+  width: 300px;
+  display: inline-block; }
+.gamification .GamificationDetailContent .gagnerBadgeNiveau .containerNotification {
+  display: inline-block; }
+.gamification .GamificationDetailContent .gagnerBadgeNiveau .imgBadgeXp {
+  max-width: 100%;
+  margin-top: -150px; }
+
+@media only screen and (max-width: 1162px) {
+  .scanne .imgMainScan {
+    bottom: -10vh !important; } }
+@media only screen and (max-width: 948px) {
+  .gamification .GamificationDetailContent {
+    max-width: 687px; }
+    .gamification .GamificationDetailContent .gagnerBadgeNiveau {
+      height: auto; }
+      .gamification .GamificationDetailContent .gagnerBadgeNiveau h3 {
+        margin-top: 17px; }
+      .gamification .GamificationDetailContent .gagnerBadgeNiveau .imgBadgeXp {
+        display: none; }
+      .gamification .GamificationDetailContent .gagnerBadgeNiveau .imgBadgeXpMobile {
+        display: block;
+        margin-top: 10px; }
+      .gamification .GamificationDetailContent .gagnerBadgeNiveau .containerNotification .notLevel {
+        top: 261px;
+        right: 53px; }
+      .gamification .GamificationDetailContent .gagnerBadgeNiveau .containerNotification .notBadge {
+        top: 430px;
+        right: 180px; }
+      .gamification .GamificationDetailContent .gagnerBadgeNiveau .containerNotification p {
+        margin-top: 10px;
+        text-align: center; } }
+@media only screen and (max-width: 806px) {
+  .gamification .GamificationDetailContent .gagnerBadgeNiveau .containerNotification .notLevel {
+    top: 261px;
+    right: 53px;
+    margin-left: 57px; }
+  .gamification .GamificationDetailContent .gagnerBadgeNiveau .containerNotification .notBadge {
+    top: 430px;
+    right: 180px;
+    margin-left: 57px; } }
+@media only screen and (max-width: 681px) {
+  .gamification .GamificationDetailContent .gagnerBadgeNiveau {
+    margin: 0 30px;
+    height: 835px;
+    height: fit-content !important; }
+    .gamification .GamificationDetailContent .gagnerBadgeNiveau h3 {
+      font-size: 30px;
+      width: inherit; }
+    .gamification .GamificationDetailContent .gagnerBadgeNiveau .containerNotification .notLevel {
+      flex-wrap: wrap;
+      justify-content: center;
+      align-items: center;
+      position: inherit;
+      margin-left: 0px;
+      margin-top: 40px; }
+    .gamification .GamificationDetailContent .gagnerBadgeNiveau .containerNotification .notBadge {
+      margin-left: 0px;
+      justify-content: center;
+      position: inherit;
+      margin-top: 15px; }
+    .gamification .GamificationDetailContent .gagnerBadgeNiveau .imgBadgeXpMobile {
+      max-width: 70%; } }
+.notification {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  padding: 17px;
+  border: 2px solid #000;
+  border-radius: 17px;
+  background-color: #fff;
+  box-shadow: 6px 6px 0 0 #000; }
+  .notification img {
+    margin-right: 10px; }
+  .notification .colortLvlUp {
+    color: #FFC569; }
+  .notification .colortGraine {
+    color: #52B375; }
+
+.notLevel {
+  top: 43px;
+  right: 300px; }
+
+.notBadge {
+  top: 193px;
+  right: 300px; }
+
+.gamification .GamificationDetailContent .partage {
+  margin: 24px 0; }
+  .gamification .GamificationDetailContent .partage h3 {
+    margin-top: 70px;
+    display: inline-block; }
+  .gamification .GamificationDetailContent .partage .containerNotification {
+    display: inline-block; }
+  .gamification .GamificationDetailContent .partage .imgBadgeXp {
+    max-width: 100%;
+    margin-top: -150px; }
+  .gamification .GamificationDetailContent .partage div .classement {
+    position: absolute;
+    bottom: 0; }
+  .gamification .GamificationDetailContent .partage div .positionPersonnagePartage {
+    position: absolute;
+    bottom: 0;
+    right: 170px; }
+  .gamification .GamificationDetailContent .partage div .notFriendLevelUp {
+    top: 68px;
+    left: 300px; }
+  .gamification .GamificationDetailContent .partage div .notPartageJardin {
+    bottom: 155px;
+    right: 300px; }
+  .gamification .GamificationDetailContent .partage h3 {
+    position: absolute;
+    right: 65px;
+    top: 32px; }
+
+@media only screen and (max-width: 948px) {
+  .partage {
+    height: 567px !important; }
+    .partage h3 {
+      margin-top: 17px !important; }
+    .partage div .classement {
+      left: 0px;
+      max-width: 40% !important; }
+    .partage div .notFriendLevelUp {
+      top: 183px !important;
+      left: 240px !important; }
+    .partage div .notPartageJardin {
+      bottom: 155px !important;
+      right: 202px !important; }
+    .partage div .positionPersonnagePartage {
+      right: 40px !important; } }
+@media only screen and (max-width: 681px) {
+  .partage {
+    margin: 20px 30px !important;
+    height: 835px !important;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: fit-content !important; }
+    .partage h3 {
+      font-size: 30px !important;
+      margin-left: 37px;
+      position: inherit !important; }
+    .partage div:nth-child(1),
+    .partage div:nth-child(2) {
+      display: flex;
+      align-items: center;
+      justify-content: center; }
+      .partage div:nth-child(1) img,
+      .partage div:nth-child(2) img {
+        position: inherit !important; }
+      .partage div:nth-child(1) .classement,
+      .partage div:nth-child(2) .classement {
+        max-width: 60% !important; }
+      .partage div:nth-child(1) .notification,
+      .partage div:nth-child(2) .notification {
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        position: inherit; }
+      .partage div:nth-child(1) .notPartageJardin,
+      .partage div:nth-child(2) .notPartageJardin {
+        flex-wrap: wrap;
+        justify-content: center; }
+        .partage div:nth-child(1) .notPartageJardin p,
+        .partage div:nth-child(2) .notPartageJardin p {
+          text-align: center; } }
+@media only screen and (max-width: 475px) {
+  .partage div:nth-child(1),
+  .partage div:nth-child(2) {
+    flex-wrap: wrap-reverse; } }
+.gamification .GamificationDetailContent .GagnerRemise {
+  display: flex; }
+  .gamification .GamificationDetailContent .GagnerRemise h3 {
+    margin-top: 70px; }
+  .gamification .GamificationDetailContent .GagnerRemise .positionPersonnagePlanteArgent {
+    position: absolute;
+    right: 60px;
+    bottom: 29px; }
+  .gamification .GamificationDetailContent .GagnerRemise .notGagnerRemise {
+    top: 56px;
+    right: 350px; }
+  .gamification .GamificationDetailContent .GagnerRemise .notGagnerVightE {
+    left: 355px;
+    bottom: 74px; }
+
+@media only screen and (max-width: 945px) {
+  .gamification .GamificationDetailContent .GagnerRemise .notGagnerRemise {
+    top: 305px;
+    right: 476px; }
+  .gamification .GamificationDetailContent .GagnerRemise .positionPersonnagePlanteArgent {
+    right: -36px; } }
+@media only screen and (max-width: 739px) {
+  .gamification .GamificationDetailContent .GagnerRemise {
+    flex-direction: column;
+    height: auto !important;
+    margin: 20px 30px !important; }
+    .gamification .GamificationDetailContent .GagnerRemise h3 {
+      font-size: 30px !important;
+      margin-bottom: 40px;
+      margin-top: 10px !important; }
+    .gamification .GamificationDetailContent .GagnerRemise .notGagnerVightE {
+      justify-content: center;
+      margin: 15px 0 !important; }
+    .gamification .GamificationDetailContent .GagnerRemise .notification {
+      position: initial !important;
+      left: 0;
+      bottom: 0px;
+      flex-wrap: wrap !important;
+      justify-content: center !important;
+      width: fit-content; }
+    .gamification .GamificationDetailContent .GagnerRemise img {
+      position: initial !important;
+      max-width: 90%; } }
+.containerAVosGraine {
+  max-width: 1080px;
+  margin: auto;
+  height: 850px;
+  position: relative; }
+  .containerAVosGraine div img:nth-child(3) {
+    position: absolute;
+    top: 295px;
+    right: -59px; }
+  .containerAVosGraine div img:nth-child(2) {
+    position: absolute;
+    top: 564px;
+    right: 350px;
+    z-index: 5; }
+  .containerAVosGraine div img:first-child {
+    position: absolute;
+    top: 365px;
+    left: 116px; }
+
+@media only screen and (max-width: 1195px) {
+  .gamification .containerAVosGraine {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: fit-content; }
+    .gamification .containerAVosGraine div {
+      display: flex;
+      margin-top: 50px; }
+      .gamification .containerAVosGraine div img:nth-child(1) {
+        display: none; }
+      .gamification .containerAVosGraine div img:nth-child(2) {
+        display: none; }
+      .gamification .containerAVosGraine div img:nth-child(3) {
+        position: initial;
+        max-width: 60%;
+        margin: auto;
+        margin-bottom: 50px; } }
+.bannerCTAEndGamification {
+  background-color: #52B375;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 69px;
+  align-items: center; }
+  .bannerCTAEndGamification .contentTextCta {
+    margin-right: 20%; }
+    .bannerCTAEndGamification .contentTextCta p {
+      margin: 16px 0; }
+  .bannerCTAEndGamification .containerQrCode {
+    width: 254px;
+    height: 260px;
+    background-color: #68BC85;
+    border-radius: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 40px; }
+    .bannerCTAEndGamification .containerQrCode img {
+      width: 50%;
+      height: auto;
+      margin-bottom: 32px; }
+    .bannerCTAEndGamification .containerQrCode p {
+      color: #ffff; }
+
+@media only screen and (max-width: 899px) {
+  .bannerCTAEndGamification .contentTextCta {
+    margin-right: 10px; }
+    .bannerCTAEndGamification .contentTextCta p {
+      margin: 10px 0 !important;
+      width: inherit; }
+  .bannerCTAEndGamification .containerQrCode p {
+    text-align: center; } }
+.rejoindre {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #30553D; }
+  .rejoindre img:first-child {
+    height: 20%;
+    margin-right: 33px; }
+  .rejoindre h2 {
+    margin-right: 91px; }
+  .rejoindre .boutonBlanc {
+    padding: 12px 30px;
+    background-color: #ffff;
+    border-radius: 29px; }
+
+@media only screen and (max-width: 1286px) {
+  .rejoindre {
+    padding: 10px; } }
+@media only screen and (max-width: 590px) {
+  .rejoindre {
+    flex-direction: column;
+    padding: 10px; }
+    .rejoindre h2 {
+      margin: 15px; } }
+.autreFonctionalite {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 80px; }
+  .autreFonctionalite h2 {
+    margin-bottom: 60px; }
+  .autreFonctionalite .containerToggleFunction {
+    display: flex;
+    padding: 16px;
+    background-color: #ffff;
+    box-shadow: 3px 3px 18px rgba(0, 0, 0, 0.12);
+    border-radius: 55px;
+    height: 495px; }
+    .autreFonctionalite .containerToggleFunction .Function {
+      width: 480px; }
+      .autreFonctionalite .containerToggleFunction .Function .BoutonFunction {
+        display: block;
+        padding: 15px 132px;
+        background-color: #F1F1F1;
+        border-radius: 40px;
+        margin-bottom: 12px;
+        cursor: pointer; }
+      .autreFonctionalite .containerToggleFunction .Function .BoutonFunctionActive {
+        display: none !important; }
+      .autreFonctionalite .containerToggleFunction .Function .contentTextFunctionNone {
+        opacity: 0;
+        content-visibility: hidden;
+        transition: all 0.2s ease-out; }
+      .autreFonctionalite .containerToggleFunction .Function .contentTextFunction {
+        padding: 58px 0px;
+        opacity: 1;
+        content-visibility: visible;
+        display: flex !important;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        border: 2px solid #FF925D;
+        border-radius: 40px;
+        transition: all 0.3s ease-out;
+        margin: 12px 0; }
+        .autreFonctionalite .containerToggleFunction .Function .contentTextFunction h3 {
+          margin-bottom: 28px; }
+        .autreFonctionalite .containerToggleFunction .Function .contentTextFunction p {
+          width: 85%; }
+      .autreFonctionalite .containerToggleFunction .Function .contentTextFunctionOther {
+        display: none; }
+      .autreFonctionalite .containerToggleFunction .Function .ContentSuiviEtEntretien {
+        border: 2px solid #FFC569; }
+        .autreFonctionalite .containerToggleFunction .Function .ContentSuiviEtEntretien h3 {
+          color: #FFC569; }
+      .autreFonctionalite .containerToggleFunction .Function .ContentMonJardin {
+        border: 2px solid #FF925D; }
+        .autreFonctionalite .containerToggleFunction .Function .ContentMonJardin h3 {
+          color: #FF925D; }
+      .autreFonctionalite .containerToggleFunction .Function .ContentDrPlantz {
+        border: 2px solid #52B375; }
+        .autreFonctionalite .containerToggleFunction .Function .ContentDrPlantz h3 {
+          color: #52B375; }
+      .autreFonctionalite .containerToggleFunction .Function .ContentAgentSpécialise {
+        border: 2px solid #806354; }
+        .autreFonctionalite .containerToggleFunction .Function .ContentAgentSpécialise h3 {
+          color: #806354; }
+    .autreFonctionalite .containerToggleFunction .imgFunction {
+      width: 770px;
+      position: relative;
+      margin-left: 16px; }
+      .autreFonctionalite .containerToggleFunction .imgFunction .imgContainerFunctionNone {
+        opacity: 0;
+        content-visibility: hidden; }
+      .autreFonctionalite .containerToggleFunction .imgFunction .imgContainerFunction {
+        opacity: 1;
+        content-visibility: visible;
+        width: 100%;
+        height: 492px;
+        display: flex !important;
+        justify-content: center;
+        border-radius: 40px;
+        overflow: hidden; }
+      .autreFonctionalite .containerToggleFunction .imgFunction .contentImgFunctionOther {
+        display: none; }
+      .autreFonctionalite .containerToggleFunction .imgFunction .imgContainerSuiviEtEntretien {
+        background-color: #FFC569; }
+      .autreFonctionalite .containerToggleFunction .imgFunction .imgContainerMonJardin {
+        background-color: #FF925D; }
+      .autreFonctionalite .containerToggleFunction .imgFunction .imgContainerDrPlantz {
+        background-color: #52B375; }
+      .autreFonctionalite .containerToggleFunction .imgFunction .imgContainerAgentSpécialise {
+        background-color: #806354; }
+
+@media only screen and (max-width: 1373px) {
+  .autreFonctionalite .containerToggleFunction {
+    max-width: 80%;
+    height: fit-content; }
+  .autreFonctionalite .imgFunction {
+    margin-left: 0 !important; }
+    .autreFonctionalite .imgFunction .imgContainerFunction {
+      height: 100% !important; } }
+@media only screen and (max-width: 1103px) {
+  .autreFonctionalite .containerToggleFunction {
+    flex-direction: column-reverse; }
+    .autreFonctionalite .containerToggleFunction .imgFunction {
+      width: initial !important;
+      margin-left: 0 !important;
+      margin-bottom: 15px; }
+      .autreFonctionalite .containerToggleFunction .imgFunction .imgContainerFunction img {
+        margin: 0 15px;
+        width: 35vh; }
+    .autreFonctionalite .containerToggleFunction .Function {
+      width: initial !important; }
+      .autreFonctionalite .containerToggleFunction .Function .BoutonFunction {
+        padding: 15px 0px; } }
+.socialProof {
+  margin-top: 135px; }
+  .socialProof h2 {
+    margin-bottom: 60px; }
+  .socialProof article {
+    width: 100%; }
+    .socialProof article .containerDesTemoignages {
+      display: flex;
+      margin-bottom: 152px;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      width: 100%; }
+      .socialProof article .containerDesTemoignages .containerTemoignage {
+        display: flex;
+        flex-direction: column;
+        width: 320px;
+        padding: 32px;
+        background-color: #ffff;
+        box-shadow: 3px 3px 18px rgba(0, 0, 0, 0.12);
+        border-radius: 40px; }
+        .socialProof article .containerDesTemoignages .containerTemoignage .profilTemoignage {
+          display: flex;
+          margin-bottom: 25px; }
+          .socialProof article .containerDesTemoignages .containerTemoignage .profilTemoignage img {
+            margin-right: 16px; }
+          .socialProof article .containerDesTemoignages .containerTemoignage .profilTemoignage .nameProfile {
+            display: flex;
+            flex-direction: column;
+            justify-content: center; }
+  .socialProof .containerDesAvis {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: #BEDFC1;
+    padding-bottom: 40px;
+    width: 100%; }
+    .socialProof .containerDesAvis div {
+      display: flex;
+      align-items: center; }
+    .socialProof .containerDesAvis div:nth-child(2) {
+      margin: 0 50px; }
+
+@media only screen and (max-width: 1146px) {
+  .socialProof article .containerDesTemoignages .containerTemoignage:nth-child(3) {
+    margin-top: 30px; } }
+@media only screen and (max-width: 760px) {
+  .socialProof article .containerDesTemoignages .containerTemoignage:nth-child(3) {
+    margin-top: 0px; }
+  .socialProof article .containerDesTemoignages .containerTemoignage:nth-child(2) {
+    margin: 10px 0; } }
+.press {
+  margin: 129px 0; }
+  .press div {
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; }
+  .press .pressSection {
+    margin-bottom: 50px; }
+  .press h2 {
+    margin-bottom: 60px; }
+
+.valeur {
+  height: 200vh;
+  position: relative; }
+  .valeur .valeurContainer {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: sticky;
+    top: 10px;
+    max-width: 1135px;
+    height: 800px;
+    margin: auto;
+    margin-bottom: 129px; }
+    .valeur .valeurContainer .ValeurTiitre {
+      opacity: 0.4;
+      position: absolute; }
+      .valeur .valeurContainer .ValeurTiitre h2,
+      .valeur .valeurContainer .ValeurTiitre p {
+        text-align: center; }
+    .valeur .valeurContainer .ValeurAmuser,
+    .valeur .valeurContainer .ValeurPerseverer,
+    .valeur .valeurContainer .ValeurPartager,
+    .valeur .valeurContainer .ValeurInnover {
+      opacity: 0; }
+    .valeur .valeurContainer div:nth-child(2),
+    .valeur .valeurContainer div:nth-child(3),
+    .valeur .valeurContainer div:nth-child(4),
+    .valeur .valeurContainer div:nth-child(5) {
+      height: 360px;
+      width: 316px;
+      display: flex;
+      justify-content: center;
+      position: absolute; }
+      .valeur .valeurContainer div:nth-child(2) div,
+      .valeur .valeurContainer div:nth-child(3) div,
+      .valeur .valeurContainer div:nth-child(4) div,
+      .valeur .valeurContainer div:nth-child(5) div {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 10px; }
+        .valeur .valeurContainer div:nth-child(2) div p,
+        .valeur .valeurContainer div:nth-child(3) div p,
+        .valeur .valeurContainer div:nth-child(4) div p,
+        .valeur .valeurContainer div:nth-child(5) div p {
+          padding: 8px 16px;
+          background-color: #FFE9DE;
+          border-radius: 12px; }
+        .valeur .valeurContainer div:nth-child(2) div img,
+        .valeur .valeurContainer div:nth-child(3) div img,
+        .valeur .valeurContainer div:nth-child(4) div img,
+        .valeur .valeurContainer div:nth-child(5) div img {
+          margin-bottom: 19px; }
+    .valeur .valeurContainer div:nth-child(2) {
+      background: url("../asset/Plantz_valeur/bg_amuser.svg");
+      background-repeat: no-repeat;
+      top: 0;
+      left: 0; }
+      .valeur .valeurContainer div:nth-child(2) p {
+        margin-bottom: 0; }
+    .valeur .valeurContainer div:nth-child(3) {
+      background: url("../asset/Plantz_valeur/bg_perseverer.svg");
+      background-repeat: no-repeat;
+      top: 0;
+      right: 0; }
+      .valeur .valeurContainer div:nth-child(3) div {
+        margin-right: 30px; }
+    .valeur .valeurContainer div:nth-child(4) {
+      background: url("../asset/Plantz_valeur/bg_partager.svg");
+      background-repeat: no-repeat;
+      bottom: 0;
+      right: 0; }
+      .valeur .valeurContainer div:nth-child(4) div {
+        margin-right: 30px; }
+    .valeur .valeurContainer div:nth-child(5) {
+      background: url("../asset/Plantz_valeur/bg_innover.svg");
+      background-repeat: no-repeat;
+      bottom: 0;
+      left: 0; }
+  .valeur .AppUiPlantz {
+    opacity: 0;
+    margin: auto;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0; }
+
+@media only screen and (max-width: 1286px) {
+  .valeur .valeurContainer {
+    padding: 10px; } }
+@media only screen and (max-width: 1147px) {
+  .valeur .valeurContainer {
+    max-width: 100%; } }
+@media only screen and (max-width: 1000px) {
+  .valeur .valeurContainer div {
+    background-size: 72% !important;
+    background-position: center !important; }
+    .valeur .valeurContainer div p {
+      font-size: 16px; } }
+@media only screen and (max-width: 445px) {
+  .valeur .valeurContainer {
+    top: 0; }
+    .valeur .valeurContainer .ValeurAmuser {
+      left: -58px !important; }
+    .valeur .valeurContainer .ValeurPerseverer {
+      right: -58px !important; }
+    .valeur .valeurContainer .ValeurPartager {
+      left: -58px !important; }
+    .valeur .valeurContainer .ValeurInnover {
+      right: -58px !important; }
+    .valeur .valeurContainer div {
+      background-size: 62% !important;
+      background-position: center !important; }
+      .valeur .valeurContainer div div img {
+        width: 60%; } }
+@media only screen and (max-width: 325px) {
+  .valeur {
+    display: none; } }
+.bannerEndCta {
+  display: flex;
+  height: auto;
+  margin-top: 150px; }
+  .bannerEndCta div:nth-child(1) {
+    width: 50%; }
+    .bannerEndCta div:nth-child(1) img {
+      width: 100%;
+      height: 100%; }
+  .bannerEndCta div:nth-child(2) {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: auto;
+    padding: 0 0 0px 10%;
+    background-color: #30553D; }
+    .bannerEndCta div:nth-child(2) p {
+      margin: 16px 0; }
+
+@media only screen and (max-width: 861px) {
+  .bannerEndCta {
+    flex-direction: column;
+    align-items: center; }
+    .bannerEndCta div:nth-child(1) {
+      width: 100%; }
+    .bannerEndCta div:nth-child(2) {
+      align-items: center;
+      width: 100%;
+      height: auto;
+      padding: 10px 0; }
+      .bannerEndCta div:nth-child(2) h2 {
+        text-align: center; }
+      .bannerEndCta div:nth-child(2) p {
+        text-align: center; } }
+.footerPP {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  padding: 50px 0; }
+  .footerPP section:nth-child(1) h2 {
+    margin-top: 16px;
+    margin-bottom: 24px; }
+  .footerPP section:nth-child(1) div {
+    width: 40%;
+    display: flex;
+    justify-content: space-between; }
+  .footerPP section:nth-child(2) nav {
+    display: flex;
+    justify-content: space-between; }
+  .footerPP section:nth-child(2) .NavXP {
+    padding-top: 20px;
+    position: relative; }
+    .footerPP section:nth-child(2) .NavXP #scanLink:hover ~ #footerImg {
+      display: none; }
+    .footerPP section:nth-child(2) .NavXP #footerImg {
+      z-index: 99;
+      top: 19px;
+      position: absolute;
+      width: 0%;
+      height: 14px;
+      background-color: #FF925D;
+      border-radius: 12px; }
+@keyframes xpbarAccueil {
+  0% {
+    width: 0.3%; }
+  100% {
+    width: 8%; } }
+@keyframes xpbarScan {
+  0% {
+    width: 0.3%; }
+  100% {
+    width: 15%; } }
+@keyframes xpbarGamification {
+  0% {
+    width: 0.3%; }
+  100% {
+    width: 30%; } }
+@keyframes xpbarOtherFunction {
+  0% {
+    width: 0.3%; }
+  100% {
+    width: 55%; } }
+@keyframes xpbarTemoignage {
+  0% {
+    width: 0.3%; }
+  100% {
+    width: 69%; } }
+@keyframes xpbarValeur {
+  from {
+    width: 0.3%; }
+  to {
+    width: 82%; } }
+@keyframes xpbarTelechargement {
+  0% {
+    width: 0.3%; }
+  100% {
+    width: 100%; } }
+@keyframes xpbarReset {
+  from {
+    width: 0.3%; } }
+  .footerPP section:nth-child(2) footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 25px; }
+    .footerPP section:nth-child(2) footer div:nth-child(2) a:nth-child(1) {
+      margin-right: 39px; }
+
+@media only screen and (max-width: 1084px) {
+  .footerPP section:nth-child(1) {
+    text-align: center; }
+    .footerPP section:nth-child(1) div {
+      margin: auto; }
+  .footerPP section:nth-child(2) {
+    margin-top: 15px;
+    max-width: 100%; }
+    .footerPP section:nth-child(2) .NavXP img {
+      max-width: 100%; } }
+@media only screen and (max-width: 724px) {
+  .footerPP section:nth-child(2) nav {
+    flex-direction: column;
+    align-items: center; }
+  .footerPP section:nth-child(2) .NavXP img {
+    display: none; } }
+
+/*# sourceMappingURL=style.css.map */

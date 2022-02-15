@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="186.5" height="213.374" viewBox="0 0 186.5 213.374">
+  <defs>
+    <filter id="bg_innover_mobile" x="0" y="0" width="186.5" height="213.374" filterUnits="userSpaceOnUse">
+      <feOffset dx="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-opacity="0.039"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#bg_innover_mobile)">
+    <path id="bg_innover_mobile-2" data-name="bg_innover_mobile" d="M129,177.374H86a86,86,0,0,1-86-86V21.5A21.5,21.5,0,0,1,21.5,0h43a86,86,0,0,1,86,86v69.875A21.5,21.5,0,0,1,129,177.374Z" transform="translate(10 18)" fill="#fff"/>
+  </g>
+</svg>

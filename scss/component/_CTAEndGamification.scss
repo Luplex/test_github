@@ -1,0 +1,61 @@
+.bannerCTAEndGamification {
+    background-color: $vert;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 69px;
+    align-items: center;
+
+    .contentTextCta {
+        margin-right: 20%;
+
+        p {
+            margin: 16px 0;
+        }
+    }
+
+    .containerQrCode {
+        width: 254px;
+        height: 260px;
+        background-color: $vertTransparent;
+        border-radius: 16px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 40px;
+
+        img {
+            width: 50%;
+            height: auto;
+            margin-bottom: 32px;
+        }
+
+        p {
+            color: $blanc;
+        }
+    }
+}
+
+
+@media only screen and (max-width:899px) {
+
+    .bannerCTAEndGamification {
+        .contentTextCta {
+            margin-right: 10px;
+
+            p {
+                margin: 10px 0 !important;
+                width: inherit;
+            }
+        }
+
+        .containerQrCode {
+            p {
+                text-align: center;
+            }
+        }
+    }
+
+
+}

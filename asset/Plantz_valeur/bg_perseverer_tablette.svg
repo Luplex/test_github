@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="255.148" height="294.282" viewBox="0 0 255.148 294.282">
+  <defs>
+    <filter id="bg_perseverer_tablette" x="0" y="0" width="255.148" height="294.282" filterUnits="userSpaceOnUse">
+      <feOffset dx="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-opacity="0.039"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#bg_perseverer_tablette)">
+    <path id="bg_perseverer_tablette-2" data-name="bg_perseverer_tablette" d="M125.228,0h62.614a31.307,31.307,0,0,1,31.307,31.307V133.054A125.228,125.228,0,0,1,93.921,258.282H31.307A31.307,31.307,0,0,1,0,226.975V125.228A125.228,125.228,0,0,1,125.228,0Z" transform="translate(229.15 276.28) rotate(180)" fill="#fff"/>
+  </g>
+</svg>

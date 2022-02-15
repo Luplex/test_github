@@ -1,0 +1,54 @@
+.bannerEndCta {
+    display: flex;
+    height: auto;
+    margin-top: 150px;
+
+    div:nth-child(1) {
+        width: 50%;
+
+        img {
+            width: 100%;
+            height: 100%;
+        }
+    }
+
+    div:nth-child(2) {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 60%;
+        height: auto;
+        padding: 0 0 0px 10%;
+        background-color: $vertFonce;
+
+        p {
+            margin: 16px 0;
+        }
+    }
+}
+
+@media only screen and (max-width: 861px) {
+    .bannerEndCta {
+        flex-direction: column;
+        align-items: center;
+
+        div:nth-child(1) {
+            width: 100%;
+        }
+
+        div:nth-child(2) {
+            align-items: center;
+            width: 100%;
+            height: auto;
+            padding: 10px 0;
+
+            h2 {
+                text-align: center;
+            }
+
+            p {
+                text-align: center;
+            }
+        }
+    }
+}

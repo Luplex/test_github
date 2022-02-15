@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="316" height="365" viewBox="0 0 316 365">
+  <defs>
+    <filter id="bg_innover" x="0" y="0" width="316" height="365" filterUnits="userSpaceOnUse">
+      <feOffset dx="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-opacity="0.039"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#bg_innover)">
+    <path id="bg_innover-2" data-name="bg_innover" d="M40,0h80A160,160,0,0,1,280,160V289a40,40,0,0,1-40,40H160A160,160,0,0,1,0,169V40A40,40,0,0,1,40,0Z" transform="translate(290 347) rotate(180)" fill="#fff"/>
+  </g>
+</svg>

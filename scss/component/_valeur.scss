@@ -1,0 +1,197 @@
+.valeur {
+    height: 200vh;
+    position: relative;
+
+    .valeurContainer {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        position: sticky;
+        top: 10px;
+        max-width: 1135px;
+        height: 800px;
+        margin: auto;
+        margin-bottom: 129px;
+
+        .ValeurTiitre {
+            opacity: 0.4;
+            position: absolute;
+
+            h2,
+            p {
+                text-align: center;
+            }
+        }
+
+        .ValeurAmuser,
+        .ValeurPerseverer,
+        .ValeurPartager,
+        .ValeurInnover {
+            opacity: 0;
+        }
+
+        div:nth-child(2),
+        div:nth-child(3),
+        div:nth-child(4),
+        div:nth-child(5) {
+            height: 360px;
+            width: 316px;
+            display: flex;
+            justify-content: center;
+            position: absolute;
+
+            div {
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                align-items: center;
+                margin-top: 10px;
+
+                p {
+                    padding: 8px 16px;
+                    background-color: $liteOrange;
+                    border-radius: 12px;
+                }
+
+                img {
+                    margin-bottom: 19px;
+                }
+            }
+        }
+
+        div:nth-child(2) {
+            background: url("../asset/Plantz_valeur/bg_amuser.svg");
+            background-repeat: no-repeat;
+            top: 0;
+            left: 0;
+
+            p {
+                margin-bottom: 0;
+            }
+
+        }
+
+        div:nth-child(3) {
+            background: url("../asset/Plantz_valeur/bg_perseverer.svg");
+            background-repeat: no-repeat;
+            top: 0;
+            right: 0;
+
+            div {
+                margin-right: 30px;
+            }
+
+        }
+
+        div:nth-child(4) {
+            background: url("../asset/Plantz_valeur/bg_partager.svg");
+            background-repeat: no-repeat;
+            bottom: 0;
+            right: 0;
+
+            div {
+                margin-right: 30px;
+            }
+        }
+
+        div:nth-child(5) {
+            background: url("../asset/Plantz_valeur/bg_innover.svg");
+            background-repeat: no-repeat;
+            bottom: 0;
+            left: 0;
+        }
+    }
+
+
+    .AppUiPlantz {
+        opacity: 0;
+        margin: auto;
+        position: sticky;
+        top: 0;
+        left: 0;
+        right: 0;
+    }
+
+}
+
+
+@media only screen and (max-width:1286px) {
+
+    .valeur {
+        .valeurContainer {
+            padding: 10px;
+        }
+    }
+}
+
+@media only screen and (max-width:1147px) {
+    .valeur {
+        .valeurContainer {
+            max-width: 100%;
+        }
+    }
+}
+
+@media only screen and (max-width:1000px) {
+    .valeur {
+        .valeurContainer {
+            div {
+                background-size: 72% !important;
+                background-position: center !important;
+
+                p {
+                    font-size: 16px;
+                }
+            }
+
+        }
+
+    }
+}
+
+
+
+@media only screen and (max-width:445px) {
+
+    .valeur {
+        .valeurContainer {
+            top: 0;
+
+            .ValeurAmuser {
+                left: -58px !important;
+            }
+
+            .ValeurPerseverer {
+                right: -58px !important;
+            }
+
+            .ValeurPartager {
+                left: -58px !important;
+            }
+
+            .ValeurInnover {
+                right: -58px !important;
+            }
+
+            div {
+                background-size: 62% !important;
+                background-position: center !important;
+
+                div {
+                    img {
+                        width: 60%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:325px) {
+
+    .valeur {
+        display: none;
+    }
+
+}

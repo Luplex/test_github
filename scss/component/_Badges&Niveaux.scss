@@ -1,0 +1,141 @@
+.gamification {
+    .GamificationDetailContent {
+        .gagnerBadgeNiveau {
+
+            @extend %gamificationDetailStyle;
+
+            .imgBadgeXpMobile {
+                display: none;
+            }
+
+            h3 {
+                margin-top: 70px;
+                width: 300px;
+                display: inline-block;
+            }
+
+            .containerNotification {
+                display: inline-block;
+            }
+
+            .imgBadgeXp {
+                max-width: 100%;
+                margin-top: -150px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1162px) {
+    .scanne {
+        .imgMainScan {
+            bottom: -10vh !important;
+        }
+    }
+}
+
+@media only screen and (max-width: 948px) {
+    .gamification {
+        .GamificationDetailContent {
+            max-width: 687px;
+
+            .gagnerBadgeNiveau {
+                height: auto;
+
+                h3 {
+                    margin-top: 17px;
+                }
+
+                .imgBadgeXp {
+                    display: none;
+                }
+
+                .imgBadgeXpMobile {
+                    display: block;
+                    margin-top: 10px;
+                }
+
+                .containerNotification {
+                    .notLevel {
+                        top: 261px;
+                        right: 53px;
+                    }
+
+                    .notBadge {
+                        top: 430px;
+                        right: 180px;
+                    }
+
+                    p {
+                        margin-top: 10px;
+                        text-align: center;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 806px) {
+    .gamification {
+        .GamificationDetailContent {
+            .gagnerBadgeNiveau {
+                .containerNotification {
+                    .notLevel {
+                        top: 261px;
+                        right: 53px;
+                        margin-left: 57px;
+                    }
+
+                    .notBadge {
+                        top: 430px;
+                        right: 180px;
+                        margin-left: 57px;
+                    }
+
+                }
+            }
+        }
+
+    }
+}
+
+@media only screen and (max-width: 681px) {
+    .gamification {
+        .GamificationDetailContent {
+            .gagnerBadgeNiveau {
+                margin: 0 30px;
+                height: 835px;
+                height: fit-content !important;
+
+                h3 {
+                    font-size: 30px;
+                    width: inherit;
+                }
+
+                .containerNotification {
+                    .notLevel {
+                        flex-wrap: wrap;
+                        justify-content: center;
+                        align-items: center;
+                        position: inherit;
+                        margin-left: 0px;
+                        margin-top: 40px;
+                    }
+
+                    .notBadge {
+                        margin-left: 0px;
+                        justify-content: center;
+                        position: inherit;
+                        margin-top: 15px;
+                    }
+                }
+
+                .imgBadgeXpMobile {
+                    max-width: 70%;
+                }
+            }
+        }
+
+    }
+}

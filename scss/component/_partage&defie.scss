@@ -1,0 +1,148 @@
+.gamification {
+    .GamificationDetailContent {
+        .partage {
+            @extend %gamificationDetailStyle;
+            margin: 24px 0;
+
+            h3 {
+                margin-top: 70px;
+                display: inline-block;
+            }
+
+            .containerNotification {
+                display: inline-block;
+            }
+
+            .imgBadgeXp {
+                max-width: 100%;
+                margin-top: -150px;
+            }
+
+            div {
+                .classement {
+                    position: absolute;
+                    bottom: 0;
+                }
+
+                .positionPersonnagePartage {
+                    position: absolute;
+                    bottom: 0;
+                    right: 170px;
+                }
+
+                .notFriendLevelUp {
+                    top: 68px;
+                    left: 300px;
+                }
+
+                .notPartageJardin {
+                    bottom: 155px;
+                    right: 300px;
+                }
+            }
+
+            h3 {
+                position: absolute;
+                right: 65px;
+                top: 32px;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 948px) {
+    .partage {
+        height: 567px !important;
+
+        h3 {
+            margin-top: 17px !important;
+        }
+
+        div {
+            .classement {
+                left: 0px;
+                max-width: 40% !important;
+            }
+
+            .notFriendLevelUp {
+                top: 183px !important;
+                left: 240px !important;
+            }
+
+            .notPartageJardin {
+                bottom: 155px !important;
+                right: 202px !important;
+            }
+
+            .positionPersonnagePartage {
+                right: 40px !important;
+            }
+        }
+
+    }
+}
+
+@media only screen and (max-width: 681px) {
+    .partage {
+        margin: 20px 30px !important;
+        height: 835px !important;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: fit-content !important;
+
+        h3 {
+            font-size: 30px !important;
+            margin-left: 37px;
+            position: inherit !important;
+        }
+
+        div:nth-child(1),
+        div:nth-child(2) {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            img {
+                position: inherit !important;
+            }
+
+            .classement {
+                max-width: 60% !important;
+                ;
+            }
+
+            .notification {
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                position: inherit;
+            }
+
+            .notPartageJardin {
+                flex-wrap: wrap;
+                justify-content: center;
+
+                p {
+                    text-align: center;
+                }
+            }
+
+        }
+
+    }
+
+
+}
+
+@media only screen and (max-width: 475px) {
+    .partage {
+
+        div:nth-child(1),
+        div:nth-child(2) {
+            flex-wrap: wrap-reverse;
+        }
+    }
+
+}

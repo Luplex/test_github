@@ -1,0 +1,13 @@
+<svg id="Picto_partager" xmlns="http://www.w3.org/2000/svg" width="60.004" height="60.004" viewBox="0 0 60.004 60.004">
+  <circle id="Ellipse_29" data-name="Ellipse 29" cx="21.215" cy="21.215" r="21.215" transform="translate(0 30.002) rotate(-45)" fill="#ff925d"/>
+  <g id="Groupe_974" data-name="Groupe 974" transform="translate(15.773 17.365)">
+    <g id="Groupe_973" data-name="Groupe 973" transform="translate(0 0)">
+      <circle id="Ellipse_30" data-name="Ellipse 30" cx="3.888" cy="3.888" r="3.888" transform="translate(15.773)" fill="#fff"/>
+      <circle id="Ellipse_31" data-name="Ellipse 31" cx="3.888" cy="3.888" r="3.888" transform="translate(15.773 17.498)" fill="#fff"/>
+      <circle id="Ellipse_32" data-name="Ellipse 32" cx="3.888" cy="3.888" r="3.888" transform="translate(0 15.039) rotate(-67.5)" fill="#fff"/>
+      <g id="Groupe_972" data-name="Groupe 972" transform="translate(4.303 3.111)">
+        <path id="Tracé_299" data-name="Tracé 299" d="M-573.949-7.607a.771.771,0,0,1-.389-.1l-14.582-8.452a.778.778,0,0,1-.388-.661.778.778,0,0,1,.368-.673l14.582-9.046a.778.778,0,0,1,1.071.251.777.777,0,0,1-.251,1.071l-13.48,8.362,13.46,7.8a.777.777,0,0,1,.283,1.063A.777.777,0,0,1-573.949-7.607Z" transform="translate(589.307 26.66)" fill="#fff"/>
+      </g>
+    </g>
+  </g>
+</svg>

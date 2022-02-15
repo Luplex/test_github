@@ -1,0 +1,71 @@
+/*import typo*/
+  
+@font-face {
+    font-family: 'ClashDisplay';
+    src: url('../asset/typo/ClashDisplay-Regular.woff2') format('woff2');
+         font-weight: 400;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'ClashDisplay';
+    src: url('../asset/typo/ClashDisplay-Medium.woff2') format('woff2');
+         font-weight: 500;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'ClashDisplay';
+    src: url('../asset/typo/ClashDisplay-Semibold.woff2') format('woff2');
+         font-weight: 600;
+         font-display: swap;
+         font-style: normal;
+  }
+  
+  
+  @font-face {
+    font-family: 'ClashDisplay';
+    src: url('../asset/typo/ClashDisplay-Bold.woff2') format('woff2');
+         font-weight: 700;
+         font-display: swap;
+         font-style: normal;
+}
+
+
+/* Couleur */
+$blanc: #ffff;
+$black:#000000;
+$liteGray: #F1F1F1;
+$gray:#484848;
+$fondCouleur:#F9FCF9;
+$vert:#52B375;
+$vertFonce: #30553D;
+$liteVert:#BEDFC1;
+$veryLiteVert:#D8ECDA;
+$vertTransparent:#68BC85;
+$orange : #FF925D;
+$liteOrange:#FFE9DE;
+$jaune:#FFC569;
+$marron:#806354;
+
+// $bleuFonce : #263238;
+// $rouge : #e53935;
+
+/* Typo */
+$ClashDisplay: 'ClashDisplay', Helvetica, sans-serif;
+
+/*Ombre*/
+$ombre:3px 3px 18px  rgba(0, 0, 0, 0.12);
+
+// /*Marge*/
+// $margin-bottom:20px;
+// $padding: 50px;
+
+/*Dimention*/
+$tablette : 1000px;
+$mobile : 600px;
+$width-responsive: 100%;

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="255.148" height="293.499" viewBox="0 0 255.148 293.499">
+  <defs>
+    <filter id="bg_innover__tablette" x="0" y="0" width="255.148" height="293.499" filterUnits="userSpaceOnUse">
+      <feOffset dx="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-opacity="0.039"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#bg_innover__tablette)">
+    <path id="bg_innover__tablette-2" data-name="bg_innover__tablette" d="M31.307,0H93.921A125.228,125.228,0,0,1,219.148,125.228V226.193A31.307,31.307,0,0,1,187.842,257.5H125.228A125.228,125.228,0,0,1,0,132.272V31.307A31.307,31.307,0,0,1,31.307,0Z" transform="translate(229.15 275.5) rotate(180)" fill="#fff"/>
+  </g>
+</svg>

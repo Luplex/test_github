@@ -1,0 +1,187 @@
+.autreFonctionalite {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 80px;
+
+    h2 {
+        margin-bottom: 60px;
+    }
+
+    .containerToggleFunction {
+        display: flex;
+        padding: 16px;
+        background-color: $blanc;
+        box-shadow: $ombre;
+        border-radius: 55px;
+        height: 495px;
+
+        .Function {
+            width: 480px;
+
+            .BoutonFunction {
+                display: block;
+                padding: 15px 132px;
+                background-color: $liteGray;
+                border-radius: 40px;
+                margin-bottom: 12px;
+                cursor: pointer;
+            }
+            .BoutonFunctionActive{
+                display: none !important;
+            }
+
+            .contentTextFunctionNone {
+                opacity: 0;
+                content-visibility: hidden;
+                transition: all 0.2s ease-out;
+            }
+
+            .contentTextFunction {
+                padding: 58px 0px;
+                opacity: 1;
+                content-visibility: visible;
+                display: flex !important;
+                justify-content: center;
+                flex-direction: column;
+                align-items: center;
+                border: 2px solid $orange;
+                border-radius: 40px;
+                transition: all 0.3s ease-out;
+                margin: 12px 0;
+
+                h3 {
+                    margin-bottom: 28px;
+                }
+
+                p {
+                    width: 85%;
+                }
+            }
+
+            .contentTextFunctionOther {
+                display: none;
+            }
+
+            
+            .ContentSuiviEtEntretien {
+                border: 2px solid $jaune;
+                h3{
+                    color:$jaune;
+                }
+            }
+
+            .ContentMonJardin {
+                border: 2px solid $orange;
+                h3{
+                    color:$orange;
+                }
+            }
+
+            .ContentDrPlantz {
+                border: 2px solid $vert;
+                h3{
+                    color:$vert;
+                }
+            }
+
+            .ContentAgentSpécialise {
+                border: 2px solid $marron;
+                h3{
+                    color:$marron;
+                }
+            }
+        }
+
+        .imgFunction {
+            width: 770px;
+            position: relative;
+            margin-left: 16px;
+
+            .imgContainerFunctionNone {
+                opacity: 0;
+                content-visibility: hidden;
+            }
+
+            .imgContainerFunction {
+                opacity: 1;
+                content-visibility: visible;
+                width: 100%;
+                height: 492px;
+                display: flex !important;
+                justify-content: center;
+                border-radius: 40px;
+                overflow: hidden;
+
+            }
+
+            .contentImgFunctionOther {
+                display: none;
+            }
+
+            .imgContainerSuiviEtEntretien {
+                background-color: $jaune;
+            }
+
+            .imgContainerMonJardin {
+                background-color: $orange;
+            }
+
+            .imgContainerDrPlantz {
+                background-color: $vert;
+            }
+
+            .imgContainerAgentSpécialise {
+                background-color: $marron;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1373px) {
+    .autreFonctionalite {
+        .containerToggleFunction {
+            max-width: 80%;
+            height: fit-content;
+        }
+
+        .imgFunction {
+            margin-left: 0 !important;
+
+            .imgContainerFunction {
+                height: 100% !important;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 1103px) {
+    .autreFonctionalite {
+        .containerToggleFunction {
+            flex-direction: column-reverse;
+
+            .imgFunction {
+                width: initial !important;
+                margin-left: 0 !important;
+                margin-bottom: 15px;
+
+                .imgContainerFunction {
+                    img {
+                        margin: 0 15px;
+                        width: 35vh;
+                    }
+                }
+            }
+
+            .Function {
+                width: initial !important;
+
+                .BoutonFunction {
+                    padding: 15px 0px;
+                }
+            }
+        }
+
+    }
+}

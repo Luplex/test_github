@@ -1,0 +1,87 @@
+.gamification {
+    .GamificationDetailContent {
+        .GagnerRemise {
+
+            @extend %gamificationDetailStyle;
+            display: flex;
+
+            h3 {
+                margin-top: 70px;
+            }
+
+            .positionPersonnagePlanteArgent {
+                position: absolute;
+                right: 60px;
+                bottom: 29px;
+            }
+
+            .notGagnerRemise {
+                top: 56px;
+                right: 350px;
+            }
+
+            .notGagnerVightE {
+                left: 355px;
+                bottom: 74px;
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width:945px) {
+    .gamification {
+        .GamificationDetailContent {
+            .GagnerRemise {
+                .notGagnerRemise {
+                    top: 305px;
+                    right: 476px;
+                }
+
+                .positionPersonnagePlanteArgent {
+                    right: -36px;
+                }
+
+            }
+        }
+    }
+}
+
+
+@media only screen and (max-width: 739px) {
+    .gamification {
+        .GamificationDetailContent {
+            .GagnerRemise {
+                flex-direction: column;
+                height: auto !important;
+                margin: 20px 30px !important;
+
+                h3 {
+                    font-size: 30px !important;
+                    margin-bottom: 40px;
+                    margin-top: 10px !important;
+                }
+
+                .notGagnerVightE {
+                    justify-content: center;
+                    margin: 15px 0 !important;
+                }
+
+                .notification {
+                    position: initial !important;
+                    left: 0;
+                    bottom: 0px;
+                    flex-wrap: wrap !important;
+                    justify-content: center !important;
+                    width: fit-content;
+                }
+
+                img {
+                    position: initial !important;
+                    max-width: 90%;
+                }
+
+            }
+        }
+    }
+}

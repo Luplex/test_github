@@ -1,0 +1,97 @@
+.socialProof {
+    @extend %fixedAlignementElement;
+    margin-top: 135px;
+
+    h2 {
+        margin-bottom: 60px;
+    }
+
+    article {
+        @extend %fixedAlignementElement;
+        width: 100%;
+
+        .containerDesTemoignages {
+            display: flex;
+            margin-bottom: 152px;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            width: 100%;
+
+            .containerTemoignage {
+                display: flex;
+                flex-direction: column;
+                width: 320px;
+                padding: 32px;
+                background-color: $blanc;
+                box-shadow: $ombre;
+                border-radius: 40px;
+                
+                .profilTemoignage {
+                    display: flex;
+                    margin-bottom: 25px;
+
+                    img {
+                        margin-right: 16px;
+                    }
+
+                    .nameProfile {
+                        display: flex;
+                        flex-direction: column;
+                        justify-content: center;
+                    }
+                }
+
+            }
+        }
+    }
+
+    .containerDesAvis {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        background-color: $liteVert;
+        padding-bottom: 40px;
+        width: 100%;
+
+        div {
+            display: flex;
+            align-items: center;
+        }
+
+        div:nth-child(2) {
+            margin: 0 50px;
+        }
+    }
+}
+
+
+@media only screen and (max-width: 1146px) {
+
+    .socialProof {
+        article {
+            .containerDesTemoignages {
+                .containerTemoignage:nth-child(3) {
+                    margin-top: 30px;
+                }
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 760px) {
+
+    .socialProof {
+        article {
+            .containerDesTemoignages {
+                .containerTemoignage:nth-child(3) {
+                    margin-top: 0px;
+                }
+
+                .containerTemoignage:nth-child(2) {
+                    margin: 10px 0;
+
+                }
+            }
+        }
+    }
+}

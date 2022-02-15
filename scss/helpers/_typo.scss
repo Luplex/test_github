@@ -1,0 +1,213 @@
+
+%titleStyle{
+    font-size: 80px;
+    line-height: 80px;
+}
+%GamificationBeforeH2Style{
+    font-size: 28px;
+    text-align: center;
+    font-weight: 600;
+    color: $vertFonce;
+}
+*{
+    font-family: 'ClashDisplay'; 
+}
+
+h1{
+    font-size: 80px;
+    line-height: 80px;
+    
+    .rayure{
+        font-size:80px;
+        line-height:80px;
+        color: $black;
+        font-weight: 700;
+    }
+}
+.beforeTitle{
+    font-size:26px;
+    line-height: 0;
+    color: $orange !important;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.introH2{
+    @extend %FlexCentexText;
+}
+h2{
+    @extend %titleStyle;
+}
+.contentIntro {
+    p{
+        @extend %GamificationBeforeH2Style;
+    }
+    h2{
+        text-align: center;
+    }
+}
+.contentIntro2{
+    div{
+        p:first-child{
+            @extend %GamificationBeforeH2Style;
+        }
+    }
+    h2{
+        text-align: center;
+    }
+    p{
+        text-align: center;
+        font-weight: 500;
+        letter-spacing: 1px;
+    }
+}
+.GamificationDetailContent{
+    section{
+        h3{
+            font-size: 40px;
+            font-weight: 700;
+        }
+    }
+}
+.notification{
+    p{
+        font-weight: 600;
+    }
+}
+.containerAVosGraine{
+    p{
+        @extend %GamificationBeforeH2Style;
+    }
+    h2{
+        text-align: center;
+    }
+}
+.contentTextCta{
+    h2,p{
+        color: $blanc;
+    }           
+}
+
+.rejoindre{
+    h2{
+        font-size: 40px;
+        color: $blanc;
+        font-weight: 500;
+    }
+    .boutonBlanc{
+        a{
+            color: $black;
+            text-align: center;
+            font-weight: 500;
+        }
+    }
+}
+
+
+.otherH2{
+    font-size: 26px;
+    font-weight: 500;
+}
+.Function{
+    h3{
+        text-align: center;
+        font-weight: 500;
+        color: $gray;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        font-size: 16px;
+    }
+    p{
+        text-align: center;
+    }
+    .contentTextFunction{
+        h3{
+           font-size: 26px;
+        }
+        p{
+            letter-spacing: 1.5px;
+            line-height: 26px;
+        }
+    } 
+}
+
+.socialProof{
+    .nameProfile{
+        p:nth-child(1){
+            font-size: 21px;
+            font-weight: 500;
+        }
+        p:nth-child(2){
+            color: $orange;
+        }
+    }
+}
+.valeur{
+    div:nth-child(2),div:nth-child(3),div:nth-child(4),div:nth-child(5){
+
+        p{
+            color: $orange;
+            font-weight: 500;
+            font-size: 26px;
+        }
+       
+    }
+}
+.bannerEndCta{
+    div:nth-child(2){
+        h2,p{
+            color: $blanc;
+        }
+        h2{
+            font-size: 52px;
+            line-height: 52px !important;
+        }
+        p{
+            line-height: 23px;
+        }
+    }
+}
+footer{
+    section:nth-child(1){
+        h2{
+            font-size: 21px !important;
+            font-weight: 500;
+            line-height: 23px !important;
+        }
+    }
+    section:nth-child(2){
+        nav{
+            a{
+                font-weight: 500;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width:445px) {
+   
+    h2{
+        font-size: 40px!important;
+        line-height: 40px!important;
+    }
+
+    .contentIntro p ,  .contentIntro2  p  {
+        font-size: 18px!important;
+    }
+
+    p{
+        font-size: 14px;
+    }
+    .otherH2 {
+        font-size: 26px!important;
+    }
+
+}
+
+@media only screen and (max-width:912px) {
+   
+    .rejoindre h2 {
+        font-size: 30px;
+        line-height: 40px!important;
+    }
+
+}

@@ -1,0 +1,127 @@
+%FlexCentexText {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.gamification {
+    article {
+        .pictoEtoile3D {
+            top: 10%;
+            left: 15%;
+        }
+
+        .pictoMessage3D {
+            top: 5%;
+            left: 35%;
+        }
+
+        .pictoNotification3D {
+            top: 9%;
+            right: 12%;
+        }
+
+        .contentIntro {
+            margin-top: 5%;
+            @extend %FlexCentexText;
+
+            h2 {
+                margin-bottom: 50px;
+            }
+
+            img {
+                width: 8%;
+            }
+        }
+
+        .contentPersonnageIntro {
+            width: 90vw;
+            margin: auto;
+
+            img {
+                width: inherit;
+            }
+        }
+    }
+
+
+    .contentIntro2 {
+        @extend %FlexCentexText;
+        margin-top: 10vh;
+        position: relative;
+
+        div {
+            .CtaButton {
+                width: 70%;
+                display: flex;
+                justify-content: space-evenly;
+                margin: auto;
+            }
+        }
+
+        p {
+            margin: 16px 0;
+        }
+
+        .pictoPartage3d {
+            top: -5%;
+            left: 9%;
+        }
+
+        .pictoGamificationTrophy {
+            top: 2%;
+            right: 9%;
+        }
+
+        .pictoGamificationSmile {
+            right: 20%;
+            bottom: 0;
+
+        }
+    }
+}
+
+@media only screen and (max-width: 1056px) {
+
+
+    .gamification {
+        .contentIntro2 {
+
+            .pictoPartage3d,
+            .pictoGamificationTrophy,
+            .pictoGamificationSmile {
+                display: none;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 700px) {
+
+    .gamification {
+        padding-top: 12vh !important;
+
+        article {
+
+            .pictoEtoile3D,
+            .pictoMessage3D,
+            .pictoNotification3D {
+                display: none !important;
+            }
+        }
+    }
+}
+
+@media only screen and (max-width: 425px) {
+
+    .gamification {
+        p {
+            width: 80%;
+            margin: 10px auto !important;
+        }
+
+        .contentIntro img {
+            width: 28% !important;
+        }
+    }
+}

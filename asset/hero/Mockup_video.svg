@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="350.663" height="650.941" viewBox="0 0 350.663 650.941">
+  <defs>
+    <filter id="Mockup_video" x="0" y="0" width="350.663" height="650.941" filterUnits="userSpaceOnUse">
+      <feOffset dy="-4" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="15.5" result="blur"/>
+      <feFlood flood-opacity="0.122"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#Mockup_video)">
+    <rect id="Mockup_video-2" data-name="Mockup_video" width="257.663" height="557.941" rx="24" transform="translate(46.5 50.5)" fill="#c4c4c4"/>
+  </g>
+</svg>

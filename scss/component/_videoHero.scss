@@ -1,0 +1,67 @@
+.container_contentHero {
+
+    .content_video {
+        position: relative;
+        width: 50%;
+        height: 75vh;
+
+        .videoContainer {
+            margin-right: 26px;
+            position: relative;
+
+            div {
+                position: absolute;
+                top: 176px;
+                left: -45px;
+                border-radius: 24px;
+                overflow: hidden;
+            }
+        }
+
+        .positionSmileyRire {
+            top: -34px;
+            left: -129px;
+        }
+
+        .positionSmileyMDR {
+            top: 50px;
+            right: -52px;
+        }
+
+        .positionSmileyEtoile {
+            bottom: 0;
+        }
+
+    }
+
+}
+
+
+
+@media only screen and (max-width:1074px) {
+    .content_video {
+        width: 100% !important;
+        align-items: center;
+
+        .videoContainer {
+            div {
+                position: initial !important;
+            }
+        }
+
+        .positionSmileyRire,
+        .positionSmileyMDR,
+        .positionSmileyEtoile {
+            display: none;
+        }
+
+    }
+
+}
+
+@media only screen and (max-width:576px) {
+    .content_video {
+      display: none!important;
+    }
+
+}

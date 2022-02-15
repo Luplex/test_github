@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="255.148" height="294.282" viewBox="0 0 255.148 294.282">
+  <defs>
+    <filter id="bg_amuser__tablette" x="0" y="0" width="255.148" height="294.282" filterUnits="userSpaceOnUse">
+      <feOffset dx="8" input="SourceAlpha"/>
+      <feGaussianBlur stdDeviation="6" result="blur"/>
+      <feFlood flood-opacity="0.039"/>
+      <feComposite operator="in" in2="blur"/>
+      <feComposite in="SourceGraphic"/>
+    </filter>
+  </defs>
+  <g transform="matrix(1, 0, 0, 1, 0, 0)" filter="url(#bg_amuser__tablette)">
+    <path id="bg_amuser__tablette-2" data-name="bg_amuser__tablette" d="M31.307,0H93.921A125.228,125.228,0,0,1,219.148,125.228V226.975a31.307,31.307,0,0,1-31.307,31.307H125.228A125.228,125.228,0,0,1,0,133.054V31.307A31.307,31.307,0,0,1,31.307,0Z" transform="translate(10 18)" fill="#fff"/>
+  </g>
+</svg>

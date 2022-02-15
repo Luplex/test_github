@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="60.004" height="60.004" viewBox="0 0 60.004 60.004">
+  <g id="picto_amis" transform="translate(675.749 114.823)">
+    <circle id="Ellipse_29" data-name="Ellipse 29" cx="21.215" cy="21.215" r="21.215" transform="translate(-675.749 -84.821) rotate(-45)" fill="#52b375"/>
+    <g id="friend" transform="translate(-763.747 -182.91)">
+      <path id="Tracé_339" data-name="Tracé 339" d="M130.033,318.924a.99.99,0,0,1-.992.993H105.99a1,1,0,0,1-.992-.992,7.235,7.235,0,0,1,7.251-7.251h2.191a7.263,7.263,0,0,1,5.212,2.217,5.815,5.815,0,0,1,2.888-.769h1.69a5.808,5.808,0,0,1,5.8,5.8Z" transform="translate(0 -213.052)" fill="#fff"/>
+      <path id="Tracé_340" data-name="Tracé 340" d="M164.5,92.461a5.306,5.306,0,1,1,5.3,5.3A5.315,5.315,0,0,1,164.5,92.461Z" transform="translate(-56.462)" fill="#fff"/>
+      <path id="Tracé_341" data-name="Tracé 341" d="M380.62,159.008a4.305,4.305,0,1,1,4.31,4.3A4.312,4.312,0,0,1,380.62,159.008Z" transform="translate(-261.54 -64.097)" fill="#fff"/>
+    </g>
+  </g>
+</svg>
